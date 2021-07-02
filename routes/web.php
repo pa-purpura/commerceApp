@@ -17,5 +17,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/home', function () {
+    return view('test');
+});
 
+Route::get('/secondo_test', function () {
+    return view('secondo_test');
+});
+
+Route::get('lang/{locale}', [App\Http\Controllers\HomeController::class, 'lang']);
 require 'admin.php';

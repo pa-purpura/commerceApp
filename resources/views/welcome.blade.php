@@ -46,6 +46,10 @@
                 </div>
 
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
+                  <div id="welcome_mex">
+                    prova visiva
+                    {{-- {{ Route::currentRouteName() == 'admin.settings' ? 'active' : '' }}                     --}}
+                  </div>
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="p-6">
                             <div class="flex items-center">
