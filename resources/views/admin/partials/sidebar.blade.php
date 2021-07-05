@@ -8,8 +8,8 @@
     </div>
     <ul class="app-menu">
         <li>
-            {{-- <a class="app-menu__item {{ Route::currentRouteName() == 'admin.dashboard' ? 'active' : '' }}" href="{{ route('admin.dashboard') }}">
-                <i class="app-menu__icon fa fa-dashboard"></i> --}}
+            <a class="app-menu__item {{ Route::currentRouteName() == 'admin.dashboard' ? 'active' : '' }}" href="{{ route('admin.dashboard') }}">
+                <i class="app-menu__icon fa fa-dashboard"></i>
                 <span class="app-menu__label">Dashboard</span>
             </a>
         </li>
@@ -20,21 +20,21 @@
             </a>
         </li>
         <li>
-            <a class="app-menu__item {{ Route::currentRouteName() == 'admin.categories.index' ? 'active' : '' }}"
-                href="{{ route('admin.categories.index') }}">
+            <a class="app-menu__item {{ Route::currentRouteName() == 'admin.categories.index' ? 'active' : '' }}" href="{{ route('admin.categories.index') }}">
                 <i class="app-menu__icon fa fa-tags"></i>
                 <span class="app-menu__label">Categories</span>
             </a>
         </li>
         <li>
-            {{-- <a class="app-menu__item {{ Route::currentRouteName() == 'admin.attributes.index' ? 'active' : '' }}" href="{{ route('admin.attributes.index') }}">
-                <i class="app-menu__icon fa fa-th"></i> --}}
+            {{-- <a class="app-menu__item {{ Route::currentRouteName() == 'admin.attributes.index' ? 'active' : '' }}" href="{{ route('admin.attributes.index') }}"> --}}
+            <a class="app-menu__item" href="#">
+                <i class="app-menu__icon fa fa-th"></i>
                 <span class="app-menu__label">Attributes</span>
             </a>
         </li>
         <li>
-            {{-- <a class="app-menu__item {{ Route::currentRouteName() == 'admin.brands.index' ? 'active' : '' }}" href="{{ route('admin.brands.index') }}">
-                <i class="app-menu__icon fa fa-briefcase"></i> --}}
+            <a class="app-menu__item {{ Route::currentRouteName() == 'admin.brands.index' ? 'active' : '' }}" href="{{ route('admin.brands.index') }}">
+                <i class="app-menu__icon fa fa-briefcase"></i>
                 <span class="app-menu__label">Brands</span>
             </a>
         </li>
